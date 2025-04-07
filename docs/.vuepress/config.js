@@ -40,23 +40,24 @@ export default defineUserConfig({
   title: 'Aidalinfo - Conseil en systèmes et logiciels informatiques',
   description: 'Aidalinfo est spécialisée dans le conseil en systèmes et logiciels informatiques, offrant des services d\'optimisation et de sécurisation des systèmes d\'information.',
   head: [
-    // Favicon
-    ['link', { rel: 'icon', href: '/images/favicon.ico' }],
-    // Balises meta pour le SEO
-    ['meta', { name: 'author', content: 'Aidalinfo' }],
-    ['meta', { name: 'keywords', content: 'conseil informatique, systèmes d\'information, logiciels, IA, intelligence artificielle, développement d\'applications, audit informatique' }],
-    // Open Graph pour le partage sur les réseaux sociaux
-    ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'Aidalinfo - Conseil en systèmes et logiciels informatiques' }],
-    ['meta', { property: 'og:description', content: 'Aidalinfo est spécialisée dans le conseil en systèmes et logiciels informatiques, offrant des services d\'optimisation et de sécurisation des systèmes d\'information.' }],
-    ['meta', { property: 'og:image', content: 'https://aidalinfo.fr/images/og-image.jpg' }],
-    ['meta', { property: 'og:url', content: 'https://aidalinfo.fr' }],
-    // Twitter Card
-    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:title', content: 'Aidalinfo - Conseil en systèmes et logiciels informatiques' }],
-    ['meta', { name: 'twitter:description', content: 'Aidalinfo est spécialisée dans le conseil en systèmes et logiciels informatiques, offrant des services d\'optimisation et de sécurisation des systèmes d\'information.' }],
-    ['meta', { name: 'twitter:image', content: 'https://aidalinfo.fr/images/twitter-image.jpg' }],
+    // // Favicon
+    // ['link', { rel: 'icon', href: '/images/favicon.ico' }],
+    // // Balises meta pour le SEO
+    // ['meta', { name: 'author', content: 'Aidalinfo' }],
+    // ['meta', { name: 'keywords', content: 'conseil informatique, systèmes d\'information, logiciels, IA, intelligence artificielle, développement d\'applications, audit informatique' }],
+    // // Open Graph pour le partage sur les réseaux sociaux
+    // ['meta', { property: 'og:type', content: 'website' }],
+    // ['meta', { property: 'og:title', content: 'Aidalinfo - Conseil en systèmes et logiciels informatiques' }],
+    // ['meta', { property: 'og:description', content: 'Aidalinfo est spécialisée dans le conseil en systèmes et logiciels informatiques, offrant des services d\'optimisation et de sécurisation des systèmes d\'information.' }],
+    // ['meta', { property: 'og:image', content: 'https://aidalinfo.fr/images/og-image.jpg' }],
+    // ['meta', { property: 'og:url', content: 'https://aidalinfo.fr' }],
+    // // Twitter Card
+    // ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    // ['meta', { name: 'twitter:title', content: 'Aidalinfo - Conseil en systèmes et logiciels informatiques' }],
+    // ['meta', { name: 'twitter:description', content: 'Aidalinfo est spécialisée dans le conseil en systèmes et logiciels informatiques, offrant des services d\'optimisation et de sécurisation des systèmes d\'information.' }],
+    // ['meta', { name: 'twitter:image', content: 'https://aidalinfo.fr/images/twitter-image.jpg' }],
   ],
+  base: '/ai-site-aidalinfo/', 
   bundler: viteBundler(),
   theme: defaultTheme({
     logo: '/images/logo.png',
