@@ -1,0 +1,71 @@
+// Couleurs Aidalinfo
+:root {
+  // Couleurs de marque
+  --c-brand: #E91E63;
+  --c-brand-light: #f06292;
+  
+  // Couleur de fond primaire
+  --c-bg: #ffffff;
+  --c-bg-light: #f3f4f5;
+  --c-bg-lighter: #f8f8f8;
+  
+  // Couleurs de texte
+  --c-text: #043056;
+  --c-text-light: #3a5169;
+  --c-text-lighter: #4e6e8e;
+  --c-text-lightest: #6a8bad;
+  
+  // Couleur des liens
+  --c-link: #1EE9A4;
+  --c-link-hover: #043056;
+  
+  // Couleurs de navigation
+  --c-navbar-bg: #043056;
+  --c-navbar-text: #f3edd3;
+  
+  // Couleurs de bordure
+  --c-border: #eaecef;
+  --c-border-dark: #dfe2e5;
+
+  // Couleur de sélection
+  --c-tip: #1EE9A4;
+}
+
+// Personnalisation du menu principal
+.navbar {
+  background-color: var(--c-navbar-bg) !important;
+  
+  .site-name,
+  .navbar-items-wrapper .navbar-item {
+    color: var(--c-navbar-text) !important;
+  }
+}
+
+// Personnalisation des boutons
+.custom-container {
+  &.tip {
+    border-color: var(--c-tip);
+    
+    .custom-container-title {
+      color: var(--c-tip);
+    }
+  }
+}
+
+// Personnalisation des liens
+a {
+  color: var(--c-link);
+  
+  &:hover {
+    color: var(--c-link-hover);
+  }
+}
+
+// Personnalisation de la barre latérale
+.sidebar {
+  .sidebar-item {
+    &.active {
+      color: var(--c-brand);
+    }
+  }
+}
